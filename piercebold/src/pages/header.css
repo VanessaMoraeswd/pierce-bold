@@ -1,6 +1,6 @@
 .header {
-  background-color: rgb(8, 79, 45);
-  color: white;
+  background-color: rgba(63, 61, 61, 1); /* Dark graphite color */
+  color: rgb(220, 220, 220); /* Light gray for text */
   padding-left: 15px;
   padding-right: 15px;
 
@@ -41,6 +41,7 @@
 .header .logo {
   height: 26px;
   margin-top: 1px;
+  margin-right: 2px;
 }
 
 .header .mobile-logo {
@@ -81,12 +82,13 @@
 }
 
 .header .search-button {
-  background-color: rgb(186, 255, 190);
+  background-color: rgb(80, 80, 80); /* Changed to dark gray */
   border: none;
   width: 45px;
   height: 40px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  margin-left: 1px;
   flex-shrink: 0;
 }
 
@@ -104,7 +106,7 @@
 }
 
 .header .orders-link {
-  color: white;
+  color: rgb(220, 220, 220); /* Light gray for links */
 
   display: flex;
   align-items: center;
@@ -119,7 +121,7 @@
 }
 
 .header .cart-link {
-  color: white;
+  color: rgb(220, 220, 220);
   display: flex;
   align-items: center;
   position: relative;
@@ -136,8 +138,8 @@
 }
 
 .header .cart-quantity {
-  color: rgb(8, 79, 45);
-  font-size: 14px;
+  color: rgba(67, 78, 3, 1); 
+  font-size: 1rem;
   font-weight: 700;
 
   position: absolute;
