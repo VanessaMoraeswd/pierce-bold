@@ -1,37 +1,12 @@
-import './header.css'
+import { Header } from '../components/Header'
 import './HomePage.css'
 
 export function HomePage() {
   return (
     <>
-      <div className='header'>
-        <div className='left-section'>
-          <a href='index.html' className='header-link'>
-            <img className='logo' src='images/logo-300px-60px-white.png' />
-            <img className='mobile-logo' src='images/mobile-logo-white.png' />
-          </a>
-        </div>
+      <title>Pierce Bold</title>
 
-        <div className='middle-section'>
-          <input className='search-bar' type='text' placeholder='Search' />
-
-          <button className='search-button'>
-            <img className='search-icon' src='images/icons/search-icon.png' />
-          </button>
-        </div>
-
-        <div className='right-section'>
-          <a className='orders-link header-link' href='orders.html'>
-            <span className='orders-text'>Orders</span>
-          </a>
-
-          <a className='cart-link header-link' href='checkout.html'>
-            <img className='cart-icon' src='images/icons/cart-icon.png' />
-            <div className='cart-quantity'>3</div>
-            <div className='cart-text'>Cart</div>
-          </a>
-        </div>
-      </div>
+      <Header />
 
       <div className='home-page'>
         <div className='products-grid'>
@@ -39,12 +14,12 @@ export function HomePage() {
             <div className='product-image-container'>
               <img
                 className='product-image'
-                src='images/products/black-and-silver-espresso-maker.jpg'
+                src='images/products/metalic-1.jpg'
               />
             </div>
 
             <div className='product-name limit-text-to-2-lines'>
-              Black and Silver Espresso Maker
+              Metalic Adaga Piercing
             </div>
 
             <div className='product-rating-container'>
@@ -88,12 +63,12 @@ export function HomePage() {
             <div className='product-image-container'>
               <img
                 className='product-image'
-                src='images/products/blackout-curtains-set-teal.jpg'
+                src='images/products/metalic-2.jpg'
               />
             </div>
 
             <div className='product-name limit-text-to-2-lines'>
-              Blackout Curtains Set Teal
+              Metalic Drop Piercing
             </div>
 
             <div className='product-rating-container'>
@@ -137,12 +112,12 @@ export function HomePage() {
             <div className='product-image-container'>
               <img
                 className='product-image'
-                src='images/products/artistic-bowl-set-6-piece.jpg'
+                src='images/products/metalic-3.jpg'
               />
             </div>
 
             <div className='product-name limit-text-to-2-lines'>
-              Artistic Bowl Set 6 Piece
+              Metalic Dragon Piercing
             </div>
 
             <div className='product-rating-container'>
