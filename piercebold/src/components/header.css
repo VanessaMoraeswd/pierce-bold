@@ -62,6 +62,7 @@ body {
 .header .logo {
   height: 26px;
   margin-top: 1px;
+  margin-right: 8px;
 }
 
 .header .mobile-logo {
@@ -71,6 +72,7 @@ body {
 @media (max-width: 675px) {
   .header .logo {
     display: none;
+    margin-right: 16px;
   }
 
   .header .mobile-logo {
@@ -91,7 +93,7 @@ body {
 .header .search-bar {
   flex: 1;
   width: 0;
-  font-size: 16px;
+  font-size: 1rem;
   height: 38px;
   padding-left: 15px;
   border-top-left-radius: 5px;
