@@ -1,8 +1,20 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --checkout-header-background-color: rgba(83, 79, 79, 1);
+  --metal-primary: rgba(180, 180, 180, 1);
+  --metal-secondary: rgba(80, 80, 80, 1);
+  --golden-font-color: rgba(201, 214, 15, 1);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
 .checkout-header {
   height: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: white;
+  background-color: var(--checkout-header-background-color);
 
   display: flex;
   justify-content: center;
@@ -67,7 +79,7 @@
 }
 
 .checkout-header .return-to-home-link {
-  color: rgb(25, 135, 84);
+  color: var(--golden-font-color);
 
   text-decoration: none;
   cursor: pointer;
