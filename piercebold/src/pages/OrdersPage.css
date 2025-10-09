@@ -1,3 +1,6 @@
+:root {
+  --dark-green-background: rgba(30, 31, 27, 1);
+}
 .orders-page {
   max-width: 850px;
   margin-top: 90px;
@@ -26,8 +29,9 @@
 }
 
 .orders-page .order-header {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(222, 222, 222);
+  /* background-color: rgba(57, 58, 50, 1); */
+  background-color: var(--dark-green-background);
+  border: 0.5px solid rgb(222, 222, 222);
 
   display: flex;
   align-items: center;
@@ -137,6 +141,8 @@
 
 .orders-page .buy-again-button {
   font-size: 14px;
+  background-color: #000000;
+  color: #afca14ff;
   width: 140px;
   height: 36px;
   border-radius: 5px;
@@ -144,6 +150,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: 0.8s;
+}
+
+.orders-page .buy-again-button:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .orders-page .buy-again-icon {
@@ -156,9 +169,17 @@
 }
 
 .orders-page .track-package-button {
-  width: 100%;
+  width: auto;
   font-size: 0.875rem;
-  padding: 8px;
+  padding: 0.8rem;
+  background-color: #000000;
+  color: #97a708ff;
+}
+
+.orders-page .track-package-button:hover {
+  font-weight: 400;
+  background-color: #97a708ff;
+  color: #000000;
 }
 
 @media (max-width: 800px) {
