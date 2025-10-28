@@ -112,7 +112,7 @@
 }
 
 .home-page .product-rating-count {
-  color: rgba(211, 200, 46, 1);
+  color: rgba(221, 209, 38, 1);
   cursor: auto;
   margin-top: 3px;
 }
@@ -154,4 +154,6 @@
   padding: 8px;
   height: 34px;
   margin-top: 1px;
+  background-color: #01010eff;
+  color: #c2e013ff;
 }

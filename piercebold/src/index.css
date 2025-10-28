@@ -19,6 +19,7 @@ body {
 button {
   font-size: 1rem;
   cursor: pointer;
+  background-color: #000000;
 }
 
 select {
@@ -34,19 +35,19 @@ button {
 .button-primary {
   color: rgb(33, 33, 33);
   background-color: var(--metal-primary);
-  border: 1px solid var(--metal-primary);
+  /* border: 1px solid var(--metal-primary); */
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 2px 5px rgba(220, 220, 220, 0.5);
+  box-shadow: 0 2px 5px rgba(10, 2, 34, 0.5);
 }
 
 .button-primary:hover {
-  background-color: rgba(180, 180, 180, 0.75);
+  background-color: #01010eff;
   border: 1px solid transparent;
 }
 
 .button-primary:active {
-  background-color: rgba(180, 180, 180, 0.5);
+  background-color: #04042cff;
   border-color: transparent;
   box-shadow: none;
 }
@@ -54,7 +55,7 @@ button {
 .button-secondary {
   color: rgb(220, 220, 220); /* Changed for better contrast */
   background-color: var(--metal-secondary);
-  border: 1px solid rgb(80, 80, 80);
+  /* border: 1px solid rgb(80, 80, 80); */
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(50, 50, 50, 0.2);
@@ -96,7 +97,7 @@ button {
 select {
   color: rgb(220, 220, 220);
   background-color: var(--metal-secondary);
-  border: 1px solid var(--metal-secondary);
+  /* border: 1px solid var(--metal-secondary); */
   border-radius: 5px;
   padding: 3px 5px;
   font-size: 1rem;
