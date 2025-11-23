@@ -4,7 +4,6 @@ import { CheckoutHeader } from './CheckoutHeader'
 import { OrderSummary } from './OrderSummary'
 import { PaymentSummary } from './PaymentSummary'
 
-// import './Checkout-header.css'
 import './CheckoutPage.css'
 
 export function CheckoutPage({ cart }) {

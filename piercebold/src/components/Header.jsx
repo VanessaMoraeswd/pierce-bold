@@ -8,18 +8,23 @@ export function Header({ cart }) {
   cart.forEach(cartItem => {
     totalQuantity += cartItem.quantity
   })
-  
+
   return (
     <div className='header'>
       <div className='left-section'>
         <NavLink to='/' className='header-link'>
-          <img className='logo' src='images/logo-300px-60px-white.png' />
+          <img className='logo' src='images/logo-white.png' />
           <img className='mobile-logo' src='images/mobile-logo-white.png' />
         </NavLink>
       </div>
 
       <div className='middle-section'>
-        <input className='search-bar' id='search-input' type='text' placeholder='Search' />
+        <input
+          className='search-bar'
+          id='search-input'
+          type='text'
+          placeholder='Search'
+        />
 
         <button className='search-button'>
           <img className='search-icon' src='images/icons/search-icon.png' />
