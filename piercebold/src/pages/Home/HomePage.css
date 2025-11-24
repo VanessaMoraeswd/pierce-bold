@@ -23,12 +23,19 @@
   padding-left: 25px;
   padding-right: 25px;
 
-  
   border-right: none rgb(240, 240, 240);
   border-bottom: none rgb(240, 240, 240);
+  border-radius: 5px;
 
   display: flex;
   flex-direction: column;
+
+  transition: background-color 0.5s;
+}
+
+.home-page .product-container:hover {
+  /* background-color: rgba(77, 8, 59, 1); */
+  background-color: rgba(63, 61, 61, 0.6);
 }
 
 .home-page .product-image-container {
