@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+<h1 className=”font-bold text-5xl flex w-1 before:h-4 before:bg-sky-500”>
+<h1 className=”font-bold text-5xl flex items-center gap-3 w-0.5 before:h-8 before:bg-sky-500 before:flex”>
