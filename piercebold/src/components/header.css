@@ -82,6 +82,19 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .header .logo {
+    display: none;
+    margin-right: 16px;
+  }
+
+  .header .mobile-logo {
+    display: block;
+    height: 26px;
+    margin-top: 1px;
+  }
+}
+
 .header .middle-section {
   flex: 1;
   max-width: 850px;

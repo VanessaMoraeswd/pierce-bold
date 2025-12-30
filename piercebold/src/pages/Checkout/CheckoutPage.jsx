@@ -5,6 +5,7 @@ import { OrderSummary } from './OrderSummary'
 import { PaymentSummary } from './PaymentSummary'
 
 import './CheckoutPage.css'
+import './CheckoutHeader.css'
 
 export function CheckoutPage({ cart, loadCart }) {
   const [deliveryOptions, setDeliveryOptions] = useState([])
